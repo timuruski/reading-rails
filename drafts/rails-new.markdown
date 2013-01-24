@@ -6,25 +6,29 @@ $ rails new
   DRAFT Thursday, 17 January 2013
 
 
-I should probably start with my experience as a Ruby developer and how I
-came to use Rails, since it will influence a lot of the initial posts
-here.  
+I should open this blog with my credentials.  I have none.  I'm not part
+of the Rails core team.  I haven't made any contributions to Rails.
+I've only worked on one profitable Rails project.  I regularly use other
+frameworks for side projects.  Worst of all, I don't even like Rails
+that much!
 
-Like many Ruby developers, my earliest encounter with the language was
-via Rails.  I did install Ruby a year before Rails was announced as part
-of a scripting language tutorial.  I wasn't very familiar with the
-command line or automating my workflow, so I didn't get much out of it.
-tutorial.  My day job involved building Flash websites (yes, I was was
-one of those developers), so Rails was a lot more relevant to me when it
-was announced.  (Back then I was fairly enthusiastic about 37signals.)
+Then why the hell am I starting a blog about Rails?  For starters, it's
+a deep, open source project covering a lot of ground and full of
+solutions to real world problems, so there's a lot to write about.
+Also, despite my distaste for some of ways Rails works, it's been worked
+on by some very bright people, there's a lot to learn from them.
 
-I bought a copy of the Pragmatic Programmers book about Rails when it
-came out and started reading.  I quickly stopped.  I was uncomfortable
-with the blurry line between Rails and Ruby.  I had a similar issue a
-few years later with jQuery and Javascript.  Learning the underlying
-language was my first priority, so I stepped away from Rails and
-focussed instead on learning plain Ruby.
+Lastly, by digging deep into the source of Rails, I'm sure I'll find
+some things worth fixing and may even make some contributions.  My goals
+are as much my own education as sharing with the community.  Some topics
+I expect to write about:
 
-I mostly wrote some small scripts to generate files from ERB templates
-and later worked on a relatively large codebase using Sinatra.
+* Following a specific thread of execution through the various layers of
+  the Rails stack.
+* Digging deep into the design and implementation of a single layer,
+  especially some of the more controversial metaprogramming techniques.
+* History of a feature, what's changed and why.
+* Outstanding issues and how to work around them if possible.
+
+
 
